@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <style>
+      html {
+          scroll-behavior: smooth;
+      }
+
+      .navbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: 9999;
+          width: 100%;
+      }
+
+      .main-content {
+          padding-top: 16rem; /* Adjust based on the height of your navbar */
+      }
+  </style>
+</head>
+
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<!-- NAVBAR -->
+
+<div class="navbar bg-orange-200">
+    <div class="flex-1">
+        <a class="btn btn-ghost text-xl font-serif italic text-black">FayeCoffe</a>
+    </div>
+    <div class="flex-row text-black ">
+        <ul>
+            <li class="btn btn-ghost"><a href="#home">Home</a></li>
+            <li class="btn btn-ghost"><a href="#about">About</a></li>
+            <li class="btn btn-ghost"><a href="#topcategories">Top Categories</a></li>
+            <li class="btn btn-ghost"><a href="#menu">Coffee Menu</a></li>
+            <li class="btn btn-ghost"><a href="#location">Location</a></li>
+            <li class="btn btn-ghost"><a href="#rating">Rating</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Content -->
+
+<section class="home" id="home">
+<div class="hero min-h-screen bg-orange-100">
+    <div class="hero-content flex-col lg:flex-row-reverse min-w-full">
+        <img src="coffe.png" class="size-90 drop-shadow-2xl" />
+        <div class="text-content pl-5">
+            <h1 class="text-7xl font-bold text-black">FayeCoffe</h1>
+            <p class="py-6 text-black">Secangkir kopi dapat memberikan dorongan energi mental sementara. Kafein di dalam kopi memberikan berbagai efek positif terhadap otak, di antaranya membantu konsentrasi, meningkatkan kewaspadaan, memperbaiki suasana hati, hingga menurunkan risiko depresi.</p>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Content -->
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="hero min-h-screen bg-orange-100 p-10">
+        <div class="hero-content flex  min-w-full">
+            <img src="coffe2.jpeg" class="size-90 drop-shadow-2xl justify-items-start rounded-lg shadow-xl" />
+            <div class="text-content pl-5">
+                <h1 class="text-7xl font-bold text-black">FayeCoffe</h1>
+                <p class="py-6 text-black">Secangkir kopi dapat memberikan dorongan energi mental sementara. Kafein di dalam kopi memberikan berbagai efek positif terhadap otak, di antaranya membantu konsentrasi, meningkatkan kewaspadaan, memperbaiki suasana hati, hingga menurunkan risiko depresi.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About -->
+
+<!-- Top Categories -->
+
+<section class="topcategories" id="topcategories">
+    <h1 class="flex p-7 justify-center text-black text-2xl font-serif font-bold bg-orange-100">"TOP CATEGORIES"</h1>
+
+    <div class="flex space-x-4 justify-center bg-orange-100 min-h-screen p-7 ">
+        <div class="flex ml-5 card card-compact w-96 h-96 bg-orange-50 shadow-xl justify-items-center">
+            <figure><img src="expresso.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title text-black ">Coffee Espresso</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn bg-orange-100">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex ml-9 card card-compact w-96 h-96 bg-orange-50 shadow-xl">
+            <figure><img src="americano.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title text-black">Coffee Americano</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn bg-orange-100">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex ml-9 card card-compact w-96 h-96 bg-orange-50 shadow-xl">
+            <figure><img src="Cappuccino.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title text-black">Coffee Cappuccino</h2>
+                <div class="card-actions justify-center">
+                    <button class="btn bg-orange-100">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MENU -->
+
+<section class="menu bg-orange-100" id="menu">
+    <h1 class="flex p-5 justify-center text-black text-2xl font-serif font-bold bg-orange-100">"COFFEE MENU"</h1>
+
+    <div class="flex space-x-4 justify-center bg-orange-100 min-h-screen p-7 ">
+        <div class="flex ml-5 card card-compact w-96 h-96 bg-orange-50 shadow-xl justify-items-center">
+            <figure><img src="expresso.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title text-black ">Coffee Expresso</h2>
+                <p class="text-black">Espresso adalah minuman kopi klasik yang dibuat dengan menyeduh kopi secara cepat menggunakan mesin espresso. Ini menghasilkan minuman kopi yang kental, dengan rasa yang kuat dan aroma yang khas.</p>
+                <div class="card-actions justify-center">
+                    <button class="btn bg-orange-100">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex ml-9 card card-compact w-96 h-96 bg-orange-50 shadow-xl">
+            <figure><img src="cappuccino.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title text-black">Coffee Cappuccino</h2>
+                <p class="text-black">Cappuccino adalah minuman kopi yang terdiri dari espresso, susu steamed, dan foam susu. Dikenal dengan lapisan krima berwarna cokelat di atasnya.</p>
+                <div class="card-actions justify-center">
+                    <button class="btn bg-orange-100">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex ml-9 card card-compact w-96 h-96 bg-orange-50 shadow-xl">
+            <figure><img src="americano.jpeg" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title text-black">Coffee Americano</h2>
+                <p class="text-black">Caffè Americano adalah minuman kopi yang terdiri dari espresso yang dicampur dengan air panas. Rasanya biasanya lebih ringan dibandingkan dengan espresso murni karena penambahan air.</p>
+                <div class="card-actions justify-center">
+                    <button class="btn bg-orange-100">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MAPS -->
+
+<section class="location" id="location">
+
+    <div class="maps min-h-screen bg-orange-100">
+        <h2 class="flex p-5 justify-center text-black text-2xl font-serif font-bold bg-orange-100"> Location </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.356971875323!2d106.72629947430062!3d-6.
+            347802462102508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef323b68527f%3A0xaa296cf88153c527!2sFaye%20Coffee%20%26%20Eatery!5e0!3m2!1sen!2sid!4v1709530683352!5m2!1sen!2sid"
+            width="1472" height="550" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+
+<!-- RATING -->
+
+<h1 class="flex justify-center bg-orange-100 text-2xl font-bold font-serif text-black "> Customer Rating </h1>
+<!-- <section class="rating bg-orange-100" id="rating"> -->
+
+    <div class="flex justify-center bg-orange-100 space-x-8 py-8 p-7">
+        <div class="text-center p-10 text-lg">
+            <div class="text-4xl text-yellow-500 mb-2">★★★★☆</div>
+            <h1 class="text-gray-700">ARIEL CESAR </h1>
+            <p class="text-gray-700">"Coffe nya enak aku akan kembali lagi kesini"</p>
+        </div>
+        <div class="text-center p-10 text-lg">
+            <div class="text-4xl text-yellow-500 mb-2">★★★☆☆</div>
+            <h1 class="text-gray-700">EZRA ROBS</h1>
+            <p class="text-gray-700">"pelayanan nya bagus cuman aga sedikit lama"</p>
+        </div>
+        <div class="text-center p-10 text-lg">
+            <div class="text-4xl text-yellow-500 mb-2">★★★★★</div>
+            <h1 class="text-gray-700">AMIN</h1>
+            <p class="text-gray-700">"semua orang harus mencoba faye coffe!!!"</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer footer-center p-10 bg-orange-200 text-base-content rounded ">
+    <nav class="grid grid-flow-col gap-4 text-black">
+        <a class="link link-hover" href="#home">Home</a>
+        <a class="link link-hover" href="#about">About us</a>
+        <a class="link link-hover" href="#topcategories">Topcategories</a>
+        <a class="link link-hover" href="#menu">Coffemenu</a>
+        <a class="link link-hover" href="#location">Location</a>
+    </nav>
+
+    <nav>
+        <div class="grid grid-flow-col gap-4 text-black">
+            <a href="https://www.instagram.com/fayecoffee.eatery/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current"><path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+            <a href="https://youtu.be/4XqqD9cX2Kk?si=fyM3anvpuOF-WOwR"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path
+                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+            <a href="https://wa.me/6289602865414/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" class="fill-current"><path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        </div>
+    </nav>
+    <aside>
+        <p class="text-black">Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+    </aside>
+</footer>
+
+</body>
+
+</html>
